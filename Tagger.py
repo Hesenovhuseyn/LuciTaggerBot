@@ -28,9 +28,9 @@ async def start(event):
                     buttons=(
                    
 		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/lucitaggerbot?startgroup=a')],
-                      [Button.url('Support🛠', 'https://t.me/LuciSup')],
-                      [Button.url('Resmi Kanal📣', 'https://t.me/LuciBots')],
-		      [Button.url('Developer👨🏻‍💻', 'https://t.me/LuciMarka')],
+                  
+                      [Button.url('Resmi Kanal📣', 'https://t.me/nevarevladim')],
+		      [Button.url('Developer👨🏻‍💻', 'https://t.me/nevarevladim')],
                     ),
                     link_preview=False
                    )
@@ -40,9 +40,9 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [Button.url('Beni Gruba Ekle➕', 'https://t.me/lucitaggerbot?startgroup=a')],
-                      [Button.url('Support👨‍💻', 'https://t.me/LuciSup')],
-                      [Button.url('Resmi Kanal🔖', 'https://t.me/LuciBots')],
-		      [Button.url('Developer🧑‍🔧', 'https://t.me/LuciMarka')],
+                      [Button.url('Support👨‍💻','https://t.me/nevarevladim')],
+
+		      [Button.url('Developer🧑‍🔧', 'https://t.me/nevarevladim')],
                     ),
                     link_preview=False
                    )
@@ -284,5 +284,5 @@ async def mentionall(tagadmin):
 		sleep(0.5)
 
 
-print(">> Bot çalıyor merak etme 🚀 @lucimarka bilgi alabilirsin <<")
+print(">> Bot çalıyor merak etme 🚀 @nevarevladim bilgi alabilirsin <<")
 client.run_until_disconnected()
